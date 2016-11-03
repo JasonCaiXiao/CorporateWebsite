@@ -3,18 +3,18 @@
 1.本项目是一个通用的基本企业后台管理框架,基础类库已经搭建完成
 
 2.基于本人对DDD领域设计的理解，同时结合Asp.net MVC5+EF6 CodeFirst+Bootstrap3+C#+SqlServer2008R2进行开发
-  同步异步使用await、async;线程使用Task
-  支持多种数据库嵌入：mysql、sqlserver等
-  服务端采用Ioc容器Autofac对各层解耦
-  使用Entityframework.extended插件对EF进行扩展，使其更好支持批量操作
-  使用dynamic linq 对集合进行动态操作
-  使用表达式树编写ExpressionExtension，可以对表达式进行任何的组装
-  使用AutoMap进行实体类之间的映射
-  使用AOP技术对各接口执行进行过滤操作，从而实现给带有返回值方法配置缓存.以及事务机制
-  封装各类常用的类库对文件（包含图片、XML）的操作
-  封装各类加解密类库：CipherType.Des、CipherType.TripleDes、CipherType.Aes、MD5、Base64加解密
-  客户端采用响应式布局，适配PC端及移动终端
-  使用基于Bootstrap3开发的前端模板AdminLTE，github地址：https://github.com/almasaeed2010/AdminLTE 
+  2.1 同步异步使用await、async;线程使用Task
+  2.2 支持多种数据库嵌入：mysql、sqlserver等
+  2.3服务端采用Ioc容器Autofac对各层解耦
+  2.4使用Entityframework.extended插件对EF进行扩展，使其更好支持批量操作
+  2.5使用dynamic linq 对集合进行动态操作
+  2.6使用表达式树编写ExpressionExtension，可以对表达式进行任何的组装
+  2.7使用AutoMap进行实体类之间的映射
+  2.7使用AOP技术对各接口执行进行过滤操作，从而实现给带有返回值方法配置缓存.以及事务机制
+  2.8封装各类常用的类库对文件（包含图片、XML）的操作
+  2.9封装各类加解密类库：CipherType.Des、CipherType.TripleDes、CipherType.Aes、MD5、Base64加解密
+  2.10客户端采用响应式布局，适配PC端及移动终端
+  2.11使用基于Bootstrap3开发的前端模板AdminLTE，github地址：https://github.com/almasaeed2010/AdminLTE 
 
 3.目前正在做:实现分布式log日志的功能
 
