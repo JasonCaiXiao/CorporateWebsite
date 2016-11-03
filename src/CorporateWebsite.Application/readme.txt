@@ -1,0 +1,2 @@
+1.Service接口的定义以及对接口的进行实现Implementations
+2.ModelDto为失血模型只有属性

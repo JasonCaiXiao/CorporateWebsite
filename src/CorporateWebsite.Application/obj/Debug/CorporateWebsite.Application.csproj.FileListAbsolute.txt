@@ -1,0 +1,17 @@
+F:\资料汇总\阿里云\CorporateWebsite\CorporateWebsite.Application\bin\Debug\CorporateWebsite.Application.dll.config
+F:\资料汇总\阿里云\CorporateWebsite\CorporateWebsite.Application\bin\Debug\CorporateWebsite.Application.dll
+F:\资料汇总\阿里云\CorporateWebsite\CorporateWebsite.Application\bin\Debug\CorporateWebsite.Application.pdb
+F:\资料汇总\阿里云\CorporateWebsite\CorporateWebsite.Application\bin\Debug\AutoMapper.dll
+F:\资料汇总\阿里云\CorporateWebsite\CorporateWebsite.Application\bin\Debug\CorporateWebsite.Domain.dll
+F:\资料汇总\阿里云\CorporateWebsite\CorporateWebsite.Application\bin\Debug\CorporateWebsite.Infrastructure.dll
+F:\资料汇总\阿里云\CorporateWebsite\CorporateWebsite.Application\bin\Debug\System.Linq.Dynamic.dll
+F:\资料汇总\阿里云\CorporateWebsite\CorporateWebsite.Application\bin\Debug\log4net.dll
+F:\资料汇总\阿里云\CorporateWebsite\CorporateWebsite.Application\bin\Debug\Castle.Core.dll
+F:\资料汇总\阿里云\CorporateWebsite\CorporateWebsite.Application\bin\Debug\CorporateWebsite.Domain.pdb
+F:\资料汇总\阿里云\CorporateWebsite\CorporateWebsite.Application\bin\Debug\CorporateWebsite.Infrastructure.pdb
+F:\资料汇总\阿里云\CorporateWebsite\CorporateWebsite.Application\bin\Debug\AutoMapper.xml
+F:\资料汇总\阿里云\CorporateWebsite\CorporateWebsite.Application\bin\Debug\log4net.xml
+F:\资料汇总\阿里云\CorporateWebsite\CorporateWebsite.Application\bin\Debug\Castle.Core.xml
+F:\资料汇总\阿里云\CorporateWebsite\CorporateWebsite.Application\obj\Debug\CorporateWebsite.Application.csprojResolveAssemblyReference.cache
+F:\资料汇总\阿里云\CorporateWebsite\CorporateWebsite.Application\obj\Debug\CorporateWebsite.Application.dll
+F:\资料汇总\阿里云\CorporateWebsite\CorporateWebsite.Application\obj\Debug\CorporateWebsite.Application.pdb

@@ -1,0 +1,12 @@
+F:\资料汇总\阿里云\CorporateWebsite\CorporateWebsite.Domain\bin\Debug\CorporateWebsite.Domain.dll.config
+F:\资料汇总\阿里云\CorporateWebsite\CorporateWebsite.Domain\bin\Debug\CorporateWebsite.Domain.dll
+F:\资料汇总\阿里云\CorporateWebsite\CorporateWebsite.Domain\bin\Debug\CorporateWebsite.Domain.pdb
+F:\资料汇总\阿里云\CorporateWebsite\CorporateWebsite.Domain\bin\Debug\CorporateWebsite.Infrastructure.dll
+F:\资料汇总\阿里云\CorporateWebsite\CorporateWebsite.Domain\bin\Debug\log4net.dll
+F:\资料汇总\阿里云\CorporateWebsite\CorporateWebsite.Domain\bin\Debug\Castle.Core.dll
+F:\资料汇总\阿里云\CorporateWebsite\CorporateWebsite.Domain\bin\Debug\CorporateWebsite.Infrastructure.pdb
+F:\资料汇总\阿里云\CorporateWebsite\CorporateWebsite.Domain\bin\Debug\log4net.xml
+F:\资料汇总\阿里云\CorporateWebsite\CorporateWebsite.Domain\bin\Debug\Castle.Core.xml
+F:\资料汇总\阿里云\CorporateWebsite\CorporateWebsite.Domain\obj\Debug\CorporateWebsite.Domain.csprojResolveAssemblyReference.cache
+F:\资料汇总\阿里云\CorporateWebsite\CorporateWebsite.Domain\obj\Debug\CorporateWebsite.Domain.dll
+F:\资料汇总\阿里云\CorporateWebsite\CorporateWebsite.Domain\obj\Debug\CorporateWebsite.Domain.pdb

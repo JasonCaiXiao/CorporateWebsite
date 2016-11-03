@@ -1,0 +1,66 @@
+﻿@using System.Web.Optimization
+@using CorporateWebsite.Application.ModelDTO
+@{
+    List<ModuleDto> sidebarMenuDataList = ViewBag.SidebarMenuModel;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">@*禁用缩放*@
+    <title>通用后台管理系统</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <!-- Ionicons -->
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    @RenderSection("css", false)
+</head>
+<body class="hold-transition skin-blue sidebar-mini">
+    <div class="wrapper">
+        <!-- Main Header -->
+        @Html.Partial("_MainHeader")
+        <!-- Left side menus. contains the logo and sidebar -->
+        @Html.Partial("_LeftSideMenus", sidebarMenuDataList)
+        <!-- Content Wrapper. Contains page content -->
+        @RenderBody()
+        @*<div class="content-wrapper">
+                <!-- Content Header (Page header) -->
+                <section class="content-header">
+                    <h1>
+                        Page Header
+                        <small>Optional description</small>
+                    </h1>
+                    <ol class="breadcrumb">
+                        <li><a href="#"><i class="fa fa-dashboard"></i> Level</a></li>
+                        <li class="active">Here</li>
+                    </ol>
+                </section>
+                <!-- Main content -->
+                <section class="content">
+                    <!-- Your Page Content Here -->
+                    @RenderBody()
+                </section><!-- /.content -->
+            </div><!-- /.content-wrapper -->*@
+        <!-- Main Footer -->
+        @Html.Partial("_MainFooter")
+        <!-- Control Sidebar -->
+        @*@Html.Partial("_ControlSidebar")*@
+        <!-- /.control-sidebar -->
+        <!-- Add the sidebar's background. This div must be placed
+             immediately after the control sidebar -->
+        <div class="control-sidebar-bg"></div>
+    </div><!-- ./wrapper -->
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+
+
+    <script src="~/Scripts/Toastr/toastr.min.js"></script>
+    <script type="text/javascript">
+        toastr.options = { positionClass: "toast-top-center", showDuration: "150", hideDuration: "2000", showMethod: "fadeIn" };
+    </script>
+</body>
+</html>
