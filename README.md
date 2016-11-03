@@ -2,7 +2,7 @@
 
 1.本项目是一个通用的基本企业后台管理框架,基础类库已经搭建完成
 
-2.基于本人对DDD领域设计的理解，同时结合Asp.net MVC5+EF6 CodeFirst+Bootstrap3+C#+SqlServer2008R2进行开发
+2.基于本人对DDD领域设计的理解，同时结合MVC5、EF6CodeFirst、Bootstrap3开发
 
  同步异步使用await、async;线程使用Task
  
