@@ -33,15 +33,20 @@ b.已加入rabbit队列机制,选择此队列很大部分是提供了一个简�
  
  封装各类加解密类库：CipherType.Des、CipherType.TripleDes、CipherType.Aes、MD5、Base64加解密
  
- 客户端采用响应式布局，适配PC端及移动终端
- 
- 使用基于Bootstrap3开发的前端模板AdminLTE，github地址：https://github.com/almasaeed2010/AdminLTE 
-
+ 如进行mvc5后台管理开发，建议采用响应式布局，适配PC端及移动终端，同时可以使用Bootstrap3开发的前端模板AdminLTE
+  
+ 如进行WebApi开发，则在身份验证时候建议使用类似微信的token验证机制，外部可以使用outhor2.0
  
 3.目前正在做:实现分布式log日志的功能
 
 4.下一步计划：  
-  a.将加入Redis更好的解决多并发（支持分布式集群）
-  b.将加入Rabbit消息队列机制（支持分布式集群）
-  c.数据库采用MyCat进行读写分离（支持分布式集群）
+  a.将加入Redis缓存、解决多并发（j持久化、主从配置、支持分布式集群）【redis使用一般两个场景】
+  
+  1.一个是读操作频繁则使用redis作为缓存,先数据从DB预加载部分数据至redis,访问某数据时先从redis中读取，如果没有则从db-查询再更新至redis
+  
+  2.另一个是大量写操作频繁则使用redis存储需要操作的数据，然后使用线程去处理更新至db
+  
+  b.将加入Rabbit消息队列机制（支持分布式集群）【路由分配、持久化等】
+  
+  c.数据库采用MyCat进行读写分离、一般采用主-主配置（支持分布式集群）【支持数据表的水平垂直分表】（在此仅提供一个参考不加入相应的代码，小弟只在一个项目中使用过）
   
