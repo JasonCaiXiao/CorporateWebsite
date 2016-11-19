@@ -7,6 +7,8 @@ a.已加入Redis作为缓存类的基础性代码,若要使用redis解决多并�
 
 b.已加入rabbit队列机制,选择此队列很大部分是提供了一个简洁的管理界面供开发人员查看和设置队列
 
+c.加入分布式log组件ExceptionLess,建议在本地部署一套
+
 1.本项目是一个通用的基本企业后台管理(MVC5)、WebAPi框架,基础类库已经搭建完成
 
 2.基于本人对DDD领域设计的理解
@@ -31,11 +33,11 @@ b.已加入rabbit队列机制,选择此队列很大部分是提供了一个简�
  
  封装各类加解密类库：CipherType.Des、CipherType.TripleDes、CipherType.Aes、MD5、Base64加解密
  
- 如进行mvc5后台管理开发，建议采用响应式布局，适配PC端及移动终端，同时可以使用Bootstrap3开发的前端模板AdminLTE.推荐一个小插件：MiniProfiler计算开发人员写EF语句时的性能，从而进行调优
+ 如进行mvc5后台管理开发，建议采用响应式布局，适配PC端及移动终端，同时可以使用Bootstrap3开发的前端模板AdminLTE.推荐一个小插件：MiniProfiler计算  开发人员写EF语句时的性能，从而进行调优
   
  如进行WebApi开发，则在身份验证时候建议使用类似微信的token验证机制，外部可以使用outhor2.0.这里推荐一个插件Swagger.Net,可以模拟请求与提供在线文档
  
-3.目前正在做:实现分布式log日志的功能
+3.目前正在做:实现分布式log日志的功能（使用ExceptionLess组件）
 
 4.下一步计划：  
   a.将加入Redis缓存、解决多并发（j持久化、主从配置、支持分布式集群）【redis使用一般两个场景】
