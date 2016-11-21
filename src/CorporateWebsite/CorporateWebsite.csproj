@@ -64,6 +64,10 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -1155,6 +1159,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Extension\DataSourceHelper.cs" />
     <Compile Include="Extension\HtmlUrlHelperExtensions.cs" />
+    <Compile Include="Extension\RedisSessionStateStore.cs" />
     <Compile Include="Extension\ValidationHelper.cs" />
     <Compile Include="Filters\JsonExceptionAttribute.cs" />
     <Compile Include="Filters\LogExceptionAttribute.cs" />
@@ -1224,6 +1229,7 @@
     <Folder Include="Areas\Front\Models\" />
     <Folder Include="Areas\Front\Views\Shared\" />
     <Folder Include="Models\" />
+    <Folder Include="WebApi\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CorporateWebsite.Application\CorporateWebsite.Application.csproj">
